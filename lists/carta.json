@@ -1,0 +1,270 @@
+{
+  "license": {
+    "source": null,
+    "url": "https://github.com/LaQuay/TDTChannels/blob/master/LICENSE"
+  },
+  "epg": {
+    "xml": "https://www.tdtchannels.com/epg/TV.xml",
+    "xml.gz": "https://www.tdtchannels.com/epg/TV.xml.gz",
+    "json": "https://www.tdtchannels.com/epg/TV.json"
+  },
+  "countries": [
+    {
+      "name": "Spain",
+      "ambits": [
+        {
+          "name": "Programas",
+          "channels": [
+            {
+              "name": "Secret Story",
+              "web": "https://www.mitele.es/programas-tv/secret-story/",
+              "logo": "https://graph.facebook.com/SecretStoryEs/picture?width=200&height=200",
+              "epg_id": null,
+              "options": [
+                {
+                  "format": "iframe",
+                  "url": "tutorial.html",
+                  "geo2": "Tutorial",
+                  "res": null,
+                  "lang": null
+                },
+                {
+                  "format": "iframe",
+                  "url": "https://ok.ru/videoembed/3384272685720",
+                  "geo2": "Gala 3",
+                  "res": null,
+                  "lang": null
+                },
+                {
+                  "format": "iframe",
+                  "url": "https://ok.ru/videoembed/3372659444376",
+                  "geo2": "Debate 2",
+                  "res": null,
+                  "lang": null
+                },
+                {
+                  "format": "iframe",
+                  "url": "https://ok.ru/videoembed/3354807306904",
+                  "geo2": "Gala 2",
+                  "res": null,
+                  "lang": null
+                },
+                {
+                  "format": "iframe",
+                  "url": "https://ok.ru/videoembed/3355457292952",
+                  "geo2": "Debate 1",
+                  "res": null,
+                  "lang": null
+                },
+                {
+                  "format": "iframe",
+                  "url": "https://ok.ru/videoembed/3426143505013",
+                  "geo2": "Gala 1",
+                  "res": null,
+                  "lang": null
+                }
+              ],
+              "extra_info": [
+                "EMB"
+              ]
+            },
+            {
+              "name": "Isla Tentaciones",
+              "web": "https://www.mitele.es/programas-tv/la-isla-de-las-tentaciones/",
+              "logo": "https://graph.facebook.com/islatentaciones/picture?width=200&height=200",
+              "epg_id": null,
+              "options": [
+                {
+                  "format": "iframe",
+                  "url": "tutorial.html",
+                  "geo2": "Tutorial",
+                  "res": null,
+                  "lang": null
+                },
+                {
+                  "format": "iframe",
+                  "url": "https://ok.ru/videoembed/3380673645208",
+                  "geo2": "Debate 12",
+                  "res": null,
+                  "lang": null
+                },
+                {
+                  "format": "iframe",
+                  "url": "https://ok.ru/videoembed/3376921578136",
+                  "geo2": "Debate 11",
+                  "res": null,
+                  "lang": null
+                },
+                {
+                  "format": "iframe",
+                  "url": "https://ok.ru/videoembed/3985463446076",
+                  "geo2": "Programa 11",
+                  "res": null,
+                  "lang": null
+                },
+                {
+                  "format": "iframe",
+                  "url": "https://ok.ru/videoembed/3765888027381",
+                  "geo2": "Debate 10",
+                  "res": null,
+                  "lang": null
+                },
+                {
+                  "format": "iframe",
+                  "url": "https://ok.ru/videoembed/3971403156028",
+                  "geo2": "Programa 10 - PT 2",
+                  "res": null,
+                  "lang": null
+                },
+                {
+                  "format": "iframe",
+                  "url": "https://ok.ru/videoembed/3969459620412",
+                  "geo2": "Programa 10 - PT 1",
+                  "res": null,
+                  "lang": null
+                },
+                {
+                  "format": "iframe",
+                  "url": "https://ok.ru/videoembed/3735796976373",
+                  "geo2": "Debate 9",
+                  "res": null,
+                  "lang": null
+                },
+                {
+                  "format": "iframe",
+                  "url": "https://ok.ru/videoembed/3953032694332",
+                  "geo2": "Programa 9",
+                  "res": null,
+                  "lang": null
+                },
+                {
+                  "format": "iframe",
+                  "url": "https://ok.ru/videoembed/3718300502773",
+                  "geo2": "Debate 8",
+                  "res": null,
+                  "lang": null
+                },
+                {
+                  "format": "iframe",
+                  "url": "https://ok.ru/videoembed/3921523182140",
+                  "geo2": "Programa 8",
+                  "res": null,
+                  "lang": null
+                },
+                {
+                  "format": "iframe",
+                  "url": "https://ok.ru/videoembed/3685205871349",
+                  "geo2": "Debate 7",
+                  "res": null,
+                  "lang": null
+                },
+                {
+                  "format": "iframe",
+                  "url": "https://ok.ru/videoembed/3866342984252",
+                  "geo2": "Programa 7",
+                  "res": null,
+                  "lang": null
+                },
+                {
+                  "format": "iframe",
+                  "url": "https://ok.ru/videoembed/3643310476021",
+                  "geo2": "Debate 6",
+                  "res": null,
+                  "lang": null
+                },
+                {
+                  "format": "iframe",
+                  "url": "https://ok.ru/videoembed/3822524566076",
+                  "geo2": "Programa 6",
+                  "res": null,
+                  "lang": null
+                },
+                {
+                  "format": "iframe",
+                  "url": "https://ok.ru/videoembed/3635046910709",
+                  "geo2": "Debate 5",
+                  "res": null,
+                  "lang": null
+                },
+                {
+                  "format": "iframe",
+                  "url": "https://ok.ru/videoembed/3741808855612",
+                  "geo2": "Programa 5",
+                  "res": null,
+                  "lang": null
+                },
+                {
+                  "format": "iframe",
+                  "url": "https://ok.ru/videoembed/3822224280124",
+                  "geo2": "Debate 4",
+                  "res": null,
+                  "lang": null
+                },
+                {
+                  "format": "iframe",
+                  "url": "https://ok.ru/videoembed/3664328264252",
+                  "geo2": "Programa 4",
+                  "res": null,
+                  "lang": null
+                },
+                {
+                  "format": "iframe",
+                  "url": "https://ok.ru/videoembed/3837942630972",
+                  "geo2": "Debate 3",
+                  "res": null,
+                  "lang": null
+                },
+                {
+                  "format": "iframe",
+                  "url": "https://ok.ru/videoembed/3631285144124",
+                  "geo2": "Programa 3",
+                  "res": null,
+                  "lang": null
+                },
+                {
+                  "format": "iframe",
+                  "url": "https://ok.ru/videoembed/3631492958780",
+                  "geo2": "Debate 2",
+                  "res": null,
+                  "lang": null
+                },
+                {
+                  "format": "iframe",
+                  "url": "https://ok.ru/videoembed/3592954382908",
+                  "geo2": "Programa 2",
+                  "res": null,
+                  "lang": null
+                },
+                {
+                  "format": "iframe",
+                  "url": "https://ok.ru/videoembed/3619132869180",
+                  "geo2": "Debate 1",
+                  "res": null,
+                  "lang": null
+                },
+                {
+                  "format": "iframe",
+                  "url": "https://ok.ru/videoembed/3575146678844",
+                  "geo2": "Programa 1",
+                  "res": null,
+                  "lang": null
+                },
+                {
+                  "format": "iframe",
+                  "url": "https://ok.ru/videoembed/3558891326012",
+                  "geo2": "Programa 0",
+                  "res": null,
+                  "lang": null
+                }
+              ],
+              "extra_info": [
+                "EMB"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "updated": 1642858297
+}
