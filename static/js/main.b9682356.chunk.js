@@ -989,6 +989,12 @@
                             playerError: !0
                         }), oe("CLICK_TV", a.name, "")) : a.options.length > 0 && (window.scrollTo(0, this.divPlayer.current.offsetTop), this.setState({
                             selectedOptionN: 0
+                        }), oe("CLICK_TV", a.name, a.options[0].url)), this.props.history.push("#" + a.name.replace(/\s/g, "")),
+                        ((navigator.userAgent.search("Safari") >= 0 && navigator.userAgent.search("Chrome") < 0) || (/iPad|iPhone|iPod/.test(navigatorID.platform))) && a.options[0].url == "https://get.toptele.ml/l/" + a.name.toLowerCase() ? (window.open(a.options[0].url), this.setState({
+                            selectedOptionN: -1,
+                            playerError: !0
+                        }), oe("CLICK_TV", a.name, "")) : a.options.length > 0 && (window.scrollTo(0, this.divPlayer.current.offsetTop), this.setState({
+                            selectedOptionN: 0
                         }), oe("CLICK_TV", a.name, a.options[0].url)), this.props.history.push("#" + a.name.replace(/\s/g, ""))
                     }
                 }, {
@@ -1011,7 +1017,7 @@
                     value: function(e, a) {
                         var t = "",
                             n = "";
-                        return void 0 !== a && null !== a.geo && (n = "Adem\xe1s se trata de una emisi\xf3n geolocalizada, es posible que est\xe9s fuera de la geolocalizaci\xf3n permitida. Prueba desde una conexion VPN."), t = e.cors || e.options.length <= 1 ? "No nos permiten reproducir este canal en la plataforma web. Puedes reproducirlo desde la web indicada debajo." : "Puedes reproducirlo mediante otra emisi\xf3n o desde la web indicada debajo.", l.a.createElement("div", {
+                        return void 0 !== a && null !== a.geo && (n = "Adem\xe1s se trata de una emisi\xf3n geolocalizada, es posible que est\xe9s fuera de la geolocalizaci\xf3n permitida. Prueba desde una conexion VPN."), t = e.cors || e.options.length <= 1 ? "No nos permiten reproducir este canal en la plataforma web. Puedes reproducirlo desde la ventana abierta." : "Puedes reproducirlo mediante otra emisi\xf3n o desde la ventana abierta.", l.a.createElement("div", {
                             style: {
                                 maxWidth: "450px",
                                 margin: "auto"
