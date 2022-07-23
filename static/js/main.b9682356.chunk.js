@@ -100,7 +100,7 @@
                                 variant: "dark",
                                 expand: "lg"
                             }, l.a.createElement(b.a.Brand, {
-                                href: "/index.html"
+                                href: "/"
                             }, l.a.createElement("img", {
                                 src: "".concat("", "/logo_200.png"),
                                 height: "35",
@@ -115,7 +115,7 @@
                                 className: "mr-auto",
                                 activeKey: window.location.pathname
                             }, l.a.createElement(h.a.Link, {
-                                href: "/television.html"
+                                href: "/"
                             }, "TELEVISI\xd3N"), l.a.createElement(h.a.Link, {
                                 href: "/radio.html"
                             }, "RADIO"), )), l.a.createElement(b.a.Collapse, {
@@ -844,7 +844,7 @@
                                 }
                             }, l.a.createElement("img", {
                                 alt: "Reportar canal caído",
-                                src: "https://i.imgur.com/fTaj6wb.png",
+                                src: "https://i.imgur.com/euKaZpD.png",
                                 height: "75",
                                 style: {
                                     marginRight: "10px"
@@ -864,7 +864,7 @@
                                 }
                             }, l.a.createElement("img", {
                                 alt: "Guardanos en favoritos",
-                                src: "https://i.imgur.com/vey3Ag0.png",
+                                src: "https://i.imgur.com/wCFoWUv.png",
                                 height: "75",
                                 style: {
                                     marginLeft: "15px",
@@ -886,7 +886,7 @@
                                 }
                             }, l.a.createElement("img", {
                                 alt: "VPN canales GEO",
-                                src: "https://i.imgur.com/Vvg2Hlw.png",
+                                src: "https://i.imgur.com/gmbGitL.png",
                                 height: "75",
                                 style: {
                                     marginLeft: "5px",
@@ -1266,7 +1266,7 @@
                             onClick: function() {
                                 alert("Proximamente")
                             }
-                        }, "Embed"), void 0 !== e && void 0 !== e.epg && null !== e.epg && l.a.createElement(Y, {
+                        }, "Embed"),  void 0 !== e && void 0 !== e.epg && null !== e.epg && l.a.createElement(Y, {
                             epgInfo: this.state.epgInfo,
                             epgChannelID: e.epg,
                             key: e.epg
@@ -2384,7 +2384,6 @@
                             return l.a.createElement(f.d, null, l.a.createElement(f.b, {
                                 path: "/",
                                 component: se,
-                                exact: !0
                             }), l.a.createElement(f.b, {
                                 path: "/television.html",
                                 component: se
