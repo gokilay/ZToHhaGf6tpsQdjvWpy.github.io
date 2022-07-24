@@ -57,6 +57,10 @@ body {
    .img {
     width:48px
    }
+   .logo-canal {
+    width: 48px;
+    border-radius: 15%;
+   }
    .table-item {
     width:25%
    }
