@@ -315,6 +315,7 @@
             },
             {
               "name": "LQSA 24h",
+              "web": "https://www.telecinco.es/laqueseavecina/",
               "logo": "https://graph.facebook.com/laqueseavecina.serie/picture?width=200&height=200",
               "epg_id": null,
               "options": [
@@ -333,7 +334,8 @@
             },
             {
               "name": "ANHQV 24h",
-              "logo": "https://graph.facebook.com/Aqui-no-hay-quien-viva-316065968437565/picture?width=200&height=200",
+              "web": "https://www.antena3.com/series/anhqv/",
+              "logo": "https://i.imgur.com/VCMjNiU.png",
               "epg_id": null,
               "options": [
                 {
@@ -351,6 +353,7 @@
             },
             {
               "name": "Aída 24h",
+              "web": "https://www.telecinco.es/aida/",
               "logo": "https://graph.facebook.com/aida.serie/picture?width=200&height=200",
               "epg_id": null,
               "options": [
