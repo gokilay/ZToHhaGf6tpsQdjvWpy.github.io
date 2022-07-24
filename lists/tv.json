@@ -30,14 +30,14 @@
                 },
                 {
                   "format": "m3u8",
-                  "url": "https://rtvelivestreamv3.akamaized.net/rtvesec/la1/la1_main_dvr.m3u8",
+                  "url": "https://rtvelivestream.akamaized.net/segments/la1/la1_main_dvr.m3u8",
                   "geo2": null,
                   "res": null,
                   "lang": null
                 },
                 {
                   "format": "m3u8",
-                  "url": "https://rtvelivestreamv3.akamaized.net/rtvesec/la1_bkp_dvr.m3u8",
+                  "url": "https://rtvelivestream.akamaized.net/segments/la1_bkp_dvr.m3u8",
                   "geo2": null,
                   "res": null,
                   "lang": null
@@ -60,14 +60,14 @@
                 },
                 {
                   "format": "m3u8",
-                  "url": "https://rtvelivestreamv3.akamaized.net/rtvesec/la2/la2_main_dvr.m3u8",
+                  "url": "https://rtvelivestream.akamaized.net/segments/la2/la2_main_dvr.m3u8",
                   "geo2": null,
                   "res": null,
                   "lang": null
                 },
                 {
                   "format": "m3u8",
-                  "url": "https://rtvelivestreamv3.akamaized.net/rtvesec/la2_bkp_dvr.m3u8",
+                  "url": "https://rtvelivestream.akamaized.net/segments/la2_bkp_dvr.m3u8",
                   "geo2": null,
                   "res": null,
                   "lang": null
@@ -314,6 +314,67 @@
               ]
             },
             {
+              "name": "LQSA 24h",
+              "logo": "https://graph.facebook.com/laqueseavecina.serie/picture?width=200&height=200",
+              "epg_id": null,
+              "options": [
+                {
+                "format": "m3u8",
+                "url": "https://cdn7.lqsa.es/hls/stream.m3u8",
+                "geo2": null,
+                "res": null,
+                "lang": null
+              }],
+              "extra_info": [
+                "W3U",
+                "EMB",
+                "EXTA"
+              ]
+            },
+            {
+              "name": "ANHQV 24h",
+              "logo": "https://graph.facebook.com/Aqui-no-hay-quien-viva-316065968437565/picture?width=200&height=200",
+              "epg_id": null,
+              "options": [
+                {
+                "format": "m3u8",
+                "url": "https://cdn5.lqsa.es/hls/0/stream.m3u8",
+                "geo2": null,
+                "res": null,
+                "lang": null
+              }],
+              "extra_info": [
+                "W3U",
+                "EMB",
+                "EXTA"
+              ]
+            },
+            {
+              "name": "Aída 24h",
+              "logo": "https://graph.facebook.com/aida.serie/picture?width=200&height=200",
+              "epg_id": null,
+              "options": [
+                {
+                "format": "stream",
+                "url": "https://ok.ru/videoembed/5294360436446",
+                "geo2": null,
+                "res": null,
+                "lang": null
+              },
+              {
+                "format": "stream",
+                "url": "https://www.twitch.tv/embed/licenciadocolmenero/chat?parent=toptele.ml",
+                "geo2": null,
+                "res": null,
+                "lang": null
+              }],
+              "extra_info": [
+                "W3U",
+                "EMB",
+                "EXTA"
+              ]
+            },
+            {
               "name": "Ten",
               "web": "https://tentv.es",
               "logo": "https://graph.facebook.com/televisionten/picture?width=200&height=200",
@@ -383,14 +444,14 @@
                 },
                 {
                   "format": "m3u8",
-                  "url": "https://rtvelivestreamv3.akamaized.net/rtvesec/24h_bkp_dvr.m3u8",
+                  "url": "https://rtvelivestream.akamaized.net/segments/24h_bkp_dvr.m3u8",
                   "geo2": null,
                   "res": null,
                   "lang": null
                 },
                 {
                   "format": "m3u8",
-                  "url": "https://rtvelivestreamv3.akamaized.net/rtvesec/24h_bkp_dvr.m3u8",
+                  "url": "https://rtvelivestream.akamaized.net/segments/24h_bkp_dvr.m3u8",
                   "geo2": null,
                   "res": null,
                   "lang": null
@@ -598,7 +659,7 @@
                 },
                 {
                   "format": "m3u8",
-                  "url": "https://rtvelivestreamv3.akamaized.net/rtvesec/tdp_bkp_dvr.m3u8",
+                  "url": "https://rtvelivestream.akamaized.net/segments/tdp_bkp_dvr.m3u8",
                   "geo2": "SP",
                   "res": null,
                   "lang": null
@@ -1039,7 +1100,7 @@
                 },
                 {
                   "format": "m3u8",
-                  "url": "https://rtvelivestreamv3.akamaized.net/rtvesec/clan_bkp_dvr.m3u8",
+                  "url": "https://rtvelivestream.akamaized.net/segments/clan_bkp_dvr.m3u8",
                   "geo2": "SP",
                   "res": null,
                   "lang": null
