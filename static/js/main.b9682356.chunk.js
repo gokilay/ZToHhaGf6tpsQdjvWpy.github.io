@@ -834,7 +834,7 @@
                                 className: "recomendation-div"
                             }, l.a.createElement("a", {
                                 className: "card-text",
-                                href: "#",
+                                href: "https://soporte.toptele.ml/reportar",
                                 target: "_blank",
                                 rel: "nofollow noopener noreferrer"
                             }, l.a.createElement("div", {
@@ -854,6 +854,27 @@
                                     marginTop: "25px"
                                 }
                             }, "Reportar canal caído"))), l.a.createElement("a", {
+                                className: "card-text",
+                                href: "https://soporte.toptele.ml/solicitar",
+                                target: "_blank",
+                                rel: "nofollow noopener noreferrer"
+                            }, l.a.createElement("div", {
+                                className: "shadow-sm p-2 mb-3 bg-white rounded",
+                                style: {
+                                    display: "flex"
+                                }
+                            }, l.a.createElement("img", {
+                                alt: "Solicitar Emisión",
+                                src: "https://i.imgur.com/bRKKPH9.png",
+                                height: "75",
+                                style: {
+                                    marginRight: "10px"
+                                }
+                            }), l.a.createElement("p", {
+                                style: {
+                                    marginTop: "25px"
+                                }
+                            }, "Solicitar Emisión"))), l.a.createElement("a", {
                                 className: "card-text",
                                 href: "#",
                                 rel: "nofollow noopener noreferrer"
