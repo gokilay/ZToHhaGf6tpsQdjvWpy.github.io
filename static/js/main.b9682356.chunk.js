@@ -1096,8 +1096,10 @@
                             height: "100%",
                             onError: function(e, t) {
                                 return a.onPlayerError(e, t)
-                            }
-                        })
+                            }, 
+                        }
+                        
+                        ) 
                     }
                 }, {
                     key: "getLabelForOption",
@@ -1263,7 +1265,13 @@
                                 marginLeft: "10px"
                             },
                             onClick: function() {
-                                alert("Proximamente")
+                                var code = '<iframe width="100%" height="100%" frameborder="0" scrolling="0" allow="autoplay" allowfullscreen="true" allow="encrypted-media" style="float:left; margin-left:0px" style="position:absolute" src="https://get.toptele.ml/embed/' + e.options[0].url + '"></iframe>';
+                                navigator.clipboard.writeText(code).then(function() {
+                                alert("😀 Código copiado en el portapapeles.  ⚠️ [BETA] ⚠️");
+                                }, function(err) {
+                                console.error('😢 No hemos podido copiar el código en el portapapeles: ', err);
+                                });
+
                             }
                         }, "Embed"),  void 0 !== e && void 0 !== e.epg && null !== e.epg && l.a.createElement(Y, {
                             epgInfo: this.state.epgInfo,
