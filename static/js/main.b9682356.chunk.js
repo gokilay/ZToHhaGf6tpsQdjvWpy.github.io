@@ -302,7 +302,7 @@
                             url: "lists/radio.json"
                         },
                         api_epg: {
-                            url: "https://raw.githubusercontent.com/HelmerLuzo/TDTChannels_EPG/master/TDTChannels_EPG.json"
+                            url: "https://get.toptele.ml/epg.json"
                         }
                     }
                 },
