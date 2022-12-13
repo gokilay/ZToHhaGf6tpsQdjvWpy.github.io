@@ -1010,7 +1010,7 @@
                         }), oe("CLICK_TV", a.name, "")) : a.options.length > 0 && (window.scrollTo(0, this.divPlayer.current.offsetTop), this.setState({
                             selectedOptionN: 0
                         }), oe("CLICK_TV", a.name, a.options[0].url)), this.props.history.push("#" + a.name.replace(/\s/g, "")),
-                        ((navigator.userAgent.search("Safari") >= 0 && navigator.userAgent.search("Chrome") < 0) || (/iPad|iPhone|iPod/.test(navigatorID.platform))) && a.options[0].url == "https://get.toptele.ml/l/" + a.name.toLowerCase() ? (window.open(a.options[0].url), this.setState({
+                        ((a.options[0].url == "https://get.toptele.ml/l/" + a.name.toLowerCase() ? (window.open(a.options[0].url), this.setState({
                             selectedOptionN: -1,
                             playerError: !0
                         }), oe("CLICK_TV", a.name, "")) : a.options.length > 0 && (window.scrollTo(0, this.divPlayer.current.offsetTop), this.setState({
